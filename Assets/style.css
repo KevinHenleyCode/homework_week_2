@@ -19,20 +19,20 @@ nav div ul {
     justify-content: flex-end;
 }
 
-ul {
+nav ul {
     background-color: bisque;
     list-style: none;
     padding: 5px 0px;
 }
 
-li {
+nav li {
     background-color: aqua;
     text-decoration: none;
     margin-right: 2%;
     font-size: 1.3em;
 }
 
-li:hover {
+nav li:hover {
     text-decoration: underline;
     cursor: pointer;
 }
@@ -47,6 +47,27 @@ section {
 
 h2 {
     font-size: 24px;
+    margin: 1em;
+}
+
+.face-picture {
+    width: 15%;
+    margin-bottom: 2em;
+}
+
+.work-section ul {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    list-style: none;
+}
+
+.work-section li {
+    flex: content;
+}
+
+.work-section li img {
+    max-width: 25%;
 }
 
 p {
