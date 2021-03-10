@@ -55,19 +55,44 @@ h2 {
     margin-bottom: 2em;
 }
 
+.work-section {
+    background-color: antiquewhite;
+}
+
 .work-section ul {
+    background-color: blueviolet;
     display: flex;
     flex-wrap: wrap;
-    font-size: 30px;
+    width: 80%;
     list-style: none;
+    flex: 1 1 1 1;
+    justify-content: center;
 }
 
-.work-section li {
-    flex: content;
+.work-section ul li {
+    background-color: aquamarine;
 }
 
-.work-section li img {
-    max-width: 25%;
+.work-section img {
+    background-color: aliceblue;
+    width: 40em;
+    justify-content: center;
+}
+
+.project1 img{
+    flex: 1;
+}
+
+.project2 {
+    flex: 1;
+}
+
+.project3 {
+    flex: 1;
+}
+
+.project4 {
+    flex: 1;
 }
 
 p {
