@@ -5,7 +5,13 @@
     font-family: monospace;
 }
 
+body {
+    background-color: rgb(80, 134, 136) ;
+}
+
 h1 {
+    border-bottom: 3px solid rgb(107, 133, 124);
+    background-color:bisque;
     display: flex;
     margin: auto 0px;
     justify-content: center;
@@ -26,7 +32,7 @@ nav ul {
 }
 
 nav li {
-    background-color: aqua;
+    background-color: bisque;
     text-decoration: none;
     margin-right: 2%;
     font-size: 1.3em;
@@ -56,22 +62,202 @@ h2 {
 }
 
 /* ..................... */
-.work-section {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 80%;
+.image-container {
     justify-content: center;
-    position: absolute;
-    flex:  1 1 1;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-.work-section img {
+.image-container img {
+    width: 500px;
+    margin: 5px;
+}
+
+.img1Contain {
     width: 600px;
+}
+.img1Contain img {
+    width: 95%;
+}
+
+.project1 {
+    filter:grayscale(60%) blur(3px);
+}
+.project1:hover {
+    filter:grayscale(0%) blur(0px);
+    cursor: pointer;
+}
+
+.project2 {
+    filter:grayscale(60%) blur(3px);
+}
+
+.project2:hover {
+    filter:grayscale(0%) blur(0px);
+    cursor: pointer;
+}
+
+.project3 {
+    filter:grayscale(60%) blur(3px);
+}
+
+.project3:hover {
+    filter:grayscale(0%) blur(0px);
+    cursor: pointer;
+}
+
+.img1Contain {
+    position: relative;
+    text-align: center;
+    color:aquamarine;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.img1Contain div {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+
+.img2Contain {
+    position: relative;
+    text-align: center;
+    color:aquamarine;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.img2Contain div {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+
+.img3Contain {
+    position: relative;
+    text-align: center;
+    color:aquamarine;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.img3Contain div {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+
+.img1Contain:hover {
+    color: black;
+}
+
+.img2Contain:hover {
+    color: black;
+}
+
+.img3Contain:hover {
+    color: black;
 }
 /* .......................... */
 
 p {
     width: 50%;
     font-size: 16px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 700px) {
+    
+nav div ul {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul {
+    background-color: bisque;
+    list-style: none;
+    padding: 5px 0px;
+}
+
+nav li {
+    background-color: bisque;
+    text-decoration: none;
+    margin-right: 2%;
+    font-size: 1.3em;
+}
+
+nav li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.image-container {
+    justify-content: center;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.image-container img {
+    width: 300px;
+    margin: 5px;
+}
+
+.img1Contain {
+    width: 600px;
+}
+.img1Contain img {
+    width: 95%;
+}
+
+.img1Contain {
+    position: relative;
+    text-align: center;
+    color:aquamarine;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.img1Contain div {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+
+.img2Contain {
+    position: relative;
+    text-align: center;
+    color:aquamarine;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.img2Contain div {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+
+.img3Contain {
+    position: relative;
+    text-align: center;
+    color:aquamarine;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.img3Contain div {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+    
 }
