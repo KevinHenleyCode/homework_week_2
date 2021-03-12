@@ -55,45 +55,21 @@ h2 {
     margin-bottom: 2em;
 }
 
+/* ..................... */
 .work-section {
-    background-color: antiquewhite;
-}
-
-.work-section ul {
-    background-color: blueviolet;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     width: 80%;
-    list-style: none;
-    flex: 1 1 1 1;
     justify-content: center;
-}
-
-.work-section ul li {
-    background-color: aquamarine;
+    position: absolute;
+    flex:  1 1 1;
 }
 
 .work-section img {
-    background-color: aliceblue;
-    width: 40em;
-    justify-content: center;
+    width: 600px;
 }
-
-.project1 img{
-    flex: 1;
-}
-
-.project2 {
-    flex: 1;
-}
-
-.project3 {
-    flex: 1;
-}
-
-.project4 {
-    flex: 1;
-}
+/* .......................... */
 
 p {
     width: 50%;
