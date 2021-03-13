@@ -61,14 +61,13 @@ h2 {
     margin-bottom: 2em;
 }
 
-/* ..................... */
 .image-container {
     justify-content: center;
+    align-items: center;
     width: 80%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
 }
 
 .image-container img {
@@ -76,35 +75,33 @@ h2 {
     margin: 5px;
 }
 
-.img1Contain {
-    width: 600px;
-}
 .img1Contain img {
     width: 95%;
 }
 
-.project1 {
+.img1Contain {
+    width: 600px;
     filter:grayscale(60%) blur(3px);
 }
-.project1:hover {
+.img1Contain:hover {
     filter:grayscale(0%) blur(0px);
     cursor: pointer;
 }
 
-.project2 {
+.img2Contain {
     filter:grayscale(60%) blur(3px);
 }
 
-.project2:hover {
+.img2Contain:hover {
     filter:grayscale(0%) blur(0px);
     cursor: pointer;
 }
 
-.project3 {
+.img3Contain {
     filter:grayscale(60%) blur(3px);
 }
 
-.project3:hover {
+.img3Contain:hover {
     filter:grayscale(0%) blur(0px);
     cursor: pointer;
 }
@@ -112,43 +109,43 @@ h2 {
 .img1Contain {
     position: relative;
     text-align: center;
-    color:aquamarine;
     font-weight: bold;
     font-size: 3em;
 }
 
-.img1Contain div {
+.img1Contain a {
     position: absolute;
     top: 40%;
     left: 35%;
+    color:aquamarine;
 }
 
 .img2Contain {
     position: relative;
     text-align: center;
-    color:aquamarine;
     font-weight: bold;
     font-size: 3em;
 }
 
-.img2Contain div {
+.img2Contain a {
     position: absolute;
     top: 40%;
     left: 35%;
+    color:aquamarine;
 }
 
 .img3Contain {
     position: relative;
     text-align: center;
-    color:aquamarine;
     font-weight: bold;
     font-size: 3em;
 }
 
-.img3Contain div {
+.img3Contain a {
     position: absolute;
     top: 40%;
     left: 35%;
+    color:aquamarine;
 }
 
 .img1Contain:hover {
@@ -162,7 +159,6 @@ h2 {
 .img3Contain:hover {
     color: black;
 }
-/* .......................... */
 
 p {
     width: 50%;
