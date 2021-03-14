@@ -14,9 +14,10 @@
 <br>
 
 ## Screenshot
-
+!["Screenshot"](Assets/Images/homework_week_2_Screenshot.png)
 
 
 <br>
 
 ## Link
+[Website](https://kevinhenleycode.github.io/homework_week_2/)
