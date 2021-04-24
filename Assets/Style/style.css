@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* styles the main background */
@@ -56,8 +57,11 @@ body {
 .myPic {
     width: 15%;
 }
+h4 {
+    font-size: 25px;
+}
 p{
-    width: 40%;
+    width: 60%;
 }
 .insideContent {
     width: 100%;
