@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    background-color: burlywood;
+    width: 100%;
+}
+.row {
+    background-color: antiquewhite;
+}
+.nav {
+    background-color: aquamarine;
+    color: blue;
+    display: flex;
+}
+
+
+.pageSec {
+    box-shadow: 2px 2px #000000;
+    margin: 1% 8%;
+    padding: 20px;
+}
+.myPic {
+    width: 15%;
+}
+p{
+    width: 20%;
+}
+.aminside {
+    width: 100%;
+    margin: 10px;
+}
+
+
+.workinside {
+    width: 100%;
+    margin: 10px;
+}
+
+.projectImg {
+    width: 450px;
+}
+
+
