@@ -13,7 +13,8 @@ body {
     background-color: #333533;
     color: blue;
     font-size: 20px;
-    text-align: center
+    text-align: center;
+    padding: 5px;
 }
 
 .heading {
@@ -23,13 +24,15 @@ body {
 
 .headingInside {
     width: 100%;
-    justify-content: center;
 }
 
 .pageSec {
     background-color: #333533;
     border-radius: 4px;
-    box-shadow: 2px 2px #7e7b7b;
+    border-style: double;
+    border-color: #beaa8b;
+    border-width: 10px;
+    box-shadow: 2px 2px #504f4f;
     margin: 1% 8%;
     padding: 20px;
 }
@@ -48,6 +51,7 @@ p{
 
 h2{
     margin-bottom: 20px;
+    color: #000000;
 }
 
 
@@ -82,6 +86,9 @@ h2{
 .project{
     background-color: #F5CB5C;
     margin: 20px;
+    border-style: double;
+    border-width: 8px;
+    border-color: #333533;
 }
 
 .project * {
