@@ -17,6 +17,19 @@ body {
     padding: 5px;
 }
 
+.nav a {
+    color: #CFDBD5;
+    text-decoration: none;
+}
+.nav a:hover {
+    color: #F5CB5C;
+    border-color: #F5CB5C;
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+
 .heading {
     background-color: #333533;
     text-align: center;
@@ -70,6 +83,20 @@ h2{
     margin: 10px;
 }
 
+
+#work a {
+    color: #000000;
+    text-decoration: none;
+}
+#work a:hover {
+    color: #ffffff;
+    border-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+
 .workImg {
     width: 450px;
     margin: 0px;
@@ -94,6 +121,20 @@ h2{
 .project * {
     color: #000000;
 }
+
+
+#contact a {
+    color: #CFDBD5;
+    text-decoration: none;
+}
+#contact a:hover {
+    color: #F5CB5C;
+    border-color: #F5CB5C;
+    border-width: 2px;
+    border-style: solid;
+}
+
+
 
 .linCon {
     width: 50%;
