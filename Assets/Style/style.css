@@ -39,10 +39,16 @@ p{
 .workinside {
     width: 100%;
     margin: 10px;
+    background-color: cadetblue;
 }
 
 .projectImg {
     width: 450px;
+}
+
+
+.project, .project * {
+    background-color: cadetblue;
 }
 
 
