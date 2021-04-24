@@ -2,53 +2,93 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #ffffff;
 }
 
+body {
+    background-color: #F5CB5C;
+}
 
-.container {
-    background-color: burlywood;
-    width: 100%;
-}
-.row {
-    background-color: antiquewhite;
-}
 .nav {
-    background-color: aquamarine;
+    background-color: #333533;
     color: blue;
-    display: flex;
+    font-size: 20px;
+    text-align: center
 }
 
+.heading {
+    background-color: #333533;
+    text-align: center;
+}
+
+.headingInside {
+    width: 100%;
+    justify-content: center;
+}
 
 .pageSec {
-    box-shadow: 2px 2px #000000;
+    background-color: #333533;
+    border-radius: 4px;
+    box-shadow: 2px 2px #7e7b7b;
     margin: 1% 8%;
     padding: 20px;
 }
+
+
 .myPic {
     width: 15%;
 }
 p{
-    width: 20%;
+    width: 40%;
 }
-.aminside {
+.insideContent {
     width: 100%;
     margin: 10px;
 }
 
+h2{
+    margin-bottom: 20px;
+}
+
+
+.h2Title {
+    width: 100%;
+    border-radius: 2px;
+    border-width: 10px;
+    border-style:double;
+    border-color: #333533;
+    margin: 10px;
+    background-color: #CFDBD5;
+}
 
 .workinside {
     width: 100%;
     margin: 10px;
-    background-color: cadetblue;
 }
 
-.projectImg {
+.workImg {
     width: 450px;
+    margin: 0px;
+    box-shadow: 2px 2px #292929;
+}
+
+.imgCon {
+    margin: 0px;
+    margin-bottom: 10px;
+
 }
 
 
-.project, .project * {
-    background-color: cadetblue;
+.project{
+    background-color: #F5CB5C;
+    margin: 20px;
 }
 
+.project * {
+    color: #000000;
+}
+
+.linCon {
+    width: 50%;
+}
 
