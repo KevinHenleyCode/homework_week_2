@@ -1,23 +1,24 @@
-# homework_week_2
+# Portfolio
 
 ## Ojective
-* The point of this project was to create a portfolio site using html and css
+* To create a potfolio site that displays the work that I have accomplished since I have started classes.
 
 <br>
 
 ## Requirements
-* The site must contain a nav bar with links that go to AboutMe, Work and Contact
-* It must have a recent photo
-* It needs to have the projects that I have done with titles and links that go to their page
-* There must be an area that gives out contact information
+* Contain at least 2 projects that I am most proud of.
+* Have links to each site and thier GitHub repos, along with a screenshot of each one.
+* The portfolio site must be mobile responsive.
+* It needs links to my Email, GitHub and LinkedIn.
+* Have a downloadable PDF of my resume.
 
 <br>
 
 ## Screenshot
-!["Screenshot"](Assets/Images/homework_week_2_Screenshot.png)
+!["Screenshot"](Assets/Images/Screenshot.png)
 
 
 <br>
 
 ## Link
-[Website](https://kevinhenleycode.github.io/homework_week_2/)
+[Website](https://kevinhenleycode.github.io/Portfolio/)
