@@ -14,37 +14,44 @@
 <div class="container-fluid p-md-0">
 
     <!-- Title -->
-    <div class="row justify-content-center">
-        <div class="col-1">
+    <div class="row heading justify-content-center">
+        <div class="col-1 headingInside mr-sm-5 mr-xl-0">
             <h1>Portfolio</h1>
         </div>
     </div>
     
     <!-- Nav -->
-    <div class="row d-flex justify-content-lg-end align-content-lg-center nav">
-        <div class="col-lg-1 row-cols-lg-1">
-            <h3>AboutMe</h3>
+    <div class="row d-flex justify-content-lg-around align-content-lg-center nav">
+        <div class="col-lg-1 d-flex row-cols-lg-1 justify-content-center ml-4">
+            <a href="#aboutMe">AboutMe</a>
         </div>
-        <div class="col-lg-1 row-cols-lg-1">
-            <h3>Work</h3>
+        <div class="col-lg-1 d-flex row-cols-lg-1 justify-content-center ml-4">
+            <a href="#work">Work</a>
         </div>
-        <div class="col-lg-1 row-cols-lg-1">
-            <h3>Contact</h3>
+        <div class="col-lg-1 d-flex row-cols-lg-1 justify-content-center ml-4">
+            <a href="#contact">Contact</a>
         </div>
     </div>
 
+
+
+
+
+
+
+
     <!-- AboutMe -->
-    <div class="row pageSec justify-content-center">
-        <div class="row aminside justify-content-center">
-            <img class="myPic" src="Assets/Images/KevinHenley_Portfolio.jpg" alt="">
-        </div>
-        <div class="row aminside justify-content-center">
+    <div id="aboutMe" class="row pageSec justify-content-center">
+        <div class="row h2Title insideContent justify-content-center">
             <h2>AboutMe</h2>
         </div>
-        <div class="row aminside justify-content-center">
+        <div class="row insideContent justify-content-center">
+            <img class="myPic" src="Assets/Images/KevinHenley_Portfolio.jpg" alt="Portfolio picture">
+        </div>
+        <div class="row insideContent justify-content-center">
             <h4>Kevin Henley</h4>
         </div>
-        <div class="row aminside justify-content-center">
+        <div class="row insideContent justify-content-center">
             <p>I started programming in college but didn’t realize until after I had graduated that that would be what I wanted to do.
             So, I decided to attend the Rice full stack bootcamp. It has been there that I have learned HTML, CSS and JavaScript. I
             am now currently working with Node.js and the rest of the MERN backend.</p>
@@ -52,54 +59,62 @@
     </div>
 
     <!-- Work -->
-    <div class="row pageSec d-flex justify-content-lg-end align-content-lg-center">
-        <div class="row workinside justify-content-center">
+    <div id="work" class="row pageSec d-flex justify-content-lg-end align-content-lg-center">
+        
+        <div class="row h2Title justify-content-center">
             <h2>Work</h2>
         </div>
-        <div class="row workinside justify-content-center">
+        
+        <div class="row workinside justify-content-around">
             <!-- Project 1 -->
             <div class="project col-xx-4 row-cols-xl-1">
-                <div class="row workinside justify-content-center">
-                    <h3>Group Project 1</h3>
-                </div>
-                <div class="row workinside justify-content-center">
-                    <a href="https://kevinhenleycode.github.io/Group_Project_1/">Site</a>
-                </div>
-                <div class="row workinside justify-content-center">
-                    <a href="https://github.com/KevinHenleyCode/Group_Project_1">GitHub</a>
-                </div>
-                <div class="row workinside justify-content-center">
-                    <img class="projectImg" src="Assets/Images/Ducking_Best_Website.png" alt="">
+                <div class="container">
+                    <div class="row workinside justify-content-center">
+                        <h3>Group Project 1</h3>
+                    </div>
+                    <div class="row workinside justify-content-center">
+                        <a href="https://kevinhenleycode.github.io/Group_Project_1/">Site</a>
+                    </div>
+                    <div class="row workinside justify-content-center">
+                        <a href="https://github.com/KevinHenleyCode/Group_Project_1">GitHub</a>
+                    </div>
+                    <div class="row workinside imgCon justify-content-center">
+                        <img class="workImg" src="Assets/Images/Ducking_Best_Website.png" alt="Website picture">
+                    </div>
                 </div>
             </div>
             <!-- Project 2 -->
             <div class="project col-xx-4 row-cols-xl-1">
-                <div class="row workinside justify-content-center">
-                    <h3>Password Generator</h3>
-                </div>
-                <div class="row workinside justify-content-center">
-                    <a href="https://kevinhenleycode.github.io/Password_Generator/">Site</a>
-                </div>
-                <div class="row workinside justify-content-center">
-                    <a href="https://github.com/KevinHenleyCode/Password_Generator">GitHub</a>
-                </div>
-                <div class="row workinside justify-content-center">
-                    <img class="projectImg" src="Assets/Images/PassWord_Generator.png" alt="">
+                <div class="container">
+                    <div class="row workinside justify-content-center">
+                        <h3>Password Generator</h3>
+                    </div>
+                    <div class="row workinside justify-content-center">
+                        <a href="https://kevinhenleycode.github.io/Password_Generator/">Site</a>
+                    </div>
+                    <div class="row workinside justify-content-center">
+                        <a href="https://github.com/KevinHenleyCode/Password_Generator">GitHub</a>
+                    </div>
+                    <div class="row workinside imgCon justify-content-center">
+                        <img class="workImg" src="Assets/Images/PassWord_Generator.png" alt="Website picture">
+                    </div>
                 </div>
             </div>
             <!-- Project 3 -->
             <div class="project col-xx-4 row-cols-xl-1">
-                <div class="row workinside justify-content-center">
-                    <h3>Work Day Scheduler</h3>
-                </div>
-                <div class="row workinside justify-content-center">
-                    <a href="https://kevinhenleycode.github.io/Work_Day_Scheduler/">Site</a>
-                </div>
-                <div class="row workinside justify-content-center">
-                    <a href="https://github.com/KevinHenleyCode/Work_Day_Scheduler">GitHub</a>
-                </div>
-                <div class="row workinside justify-content-center">
-                    <img class="projectImg" src="Assets/Images/Work_Day_Scheduler.png" alt="">
+                <div class="container">
+                    <div class="row workinside justify-content-center">
+                        <h3>Work Day Scheduler</h3>
+                    </div>
+                    <div class="row workinside justify-content-center">
+                        <a href="https://kevinhenleycode.github.io/Work_Day_Scheduler/">Site</a>
+                    </div>
+                    <div class="row workinside justify-content-center">
+                        <a href="https://github.com/KevinHenleyCode/Work_Day_Scheduler">GitHub</a>
+                    </div>
+                    <div class="row workinside imgCon justify-content-center">
+                        <img class="workImg" src="Assets/Images/Work_Day_Scheduler.png" alt="Website picture">
+                    </div>
                 </div>
             </div>
     
@@ -107,10 +122,22 @@
     </div>
 
     <!-- Contact -->
-    <div class="row  justify-content-center">
-        <div class="col-1">
+    <div id="contact" class="row pageSec justify-content-center">
+        <div class="row h2Title insideContent justify-content-center">
             <h2>Contact</h2>
         </div>
+            
+            <div class="row insideContent justify-content-center">
+                <div class="col-lg-2 row-cols-lg-1">
+                    <a class="row insideContent justify-content-center" href="kevinhenleyinfo@gmail.com">Email</a>
+                </div>
+                <div class="col-lg-2 row-cols-lg-1">
+                    <a class="row insideContent justify-content-center" href="https://github.com/KevinHenleyCode">GitHub</a>
+                </div>
+                <div class="col-lg-2 row-cols-lg-1">
+                    <a class="row insideContent justify-content-center" href="https://www.linkedin.com/in/kevin-henley/">LinkedIn</a>
+                </div>
+            </div>
     </div>
     
 </div>
