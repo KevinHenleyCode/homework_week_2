@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "description": "## Ojective * To create a potfolio site that displays the work that I have accomplished since I have started classes.",
+  "version": "3.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build src/tailwind.css -o public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinHenleyCode/Portfolio.git"
+  },
+  "author": "Kevin Henley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KevinHenleyCode/Portfolio/issues"
+  },
+  "homepage": "https://github.com/KevinHenleyCode/Portfolio#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.2"
+  }
+}
